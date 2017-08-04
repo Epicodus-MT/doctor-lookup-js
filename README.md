@@ -2,13 +2,12 @@
 
 # Doctor Lookup
 
-> **Technologies Used** - Javascript, HTML, Shell, BetterDoctor API.
-
-> **IDE used** - Atom.
+> **Technologies Used** - Javascript, HTML, BetterDoctor API.
+> **IDE Used** - Atom.
 
 #### By _**Mara Timberlake**_
 
-JavaScript app that uses the BetterDoctor API to allow users to search for a doctor that provides the services nearby.
+JavaScript app that uses the BetterDoctor API to allow users to search for a doctor that provides services nearby.
 
 ## Description
 
@@ -44,7 +43,7 @@ $ npm install
 $ bower install
 $ touch .env
 ```
-* _Open the .env file and add the following to the file:_
+* _Open the .env file and add the following:_
 ```
 exports.apiKey = ... ;
 ```

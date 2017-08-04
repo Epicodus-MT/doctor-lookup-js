@@ -1,0 +1,24 @@
+{
+  "name": "doctor-lookup",
+  "description": "<img src=\"epicodus.png\" align=\"right\" />",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mara Timberlake"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "API"
+  ],
+  "homepage": "github.com/Empicodus-MT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
