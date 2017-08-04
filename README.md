@@ -45,14 +45,14 @@ $ touch .env
 ```
 * _Open the .env file and add the following:_
 ```
-exports.apiKey = ... ;
+exports.apiKey = 818f2c227ee20762596e1369090b93d0;
 ```
 * _Return to the terminal, and run program:_
 ```
 $ gulp build
 $ gulp serve
 ```
-* _Open browser window:_
+* _Browser will open window to:_
 ```
 localhost:3000
 ```
@@ -71,3 +71,5 @@ For questions or feedback, please contact [Mara Timberlake](<contact-info.md>).
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://opensource.org/licenses/MIT)
 
 To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
+
+Copyright (c) 2017 *_Mara Timberlake_*
