@@ -17,10 +17,10 @@ _A website where users may enter a medical issue (ie: “sore throat”, "rash",
 Within the repository you'll find the following directories and files:
 
 ```
-doctor-lookup/
+doctor-lookup-js/
 ├── js/
-|    └── object-interface.js
-|    └── object.js
+|    └── docfinder-interface.js
+|    └── docfinder.js
 ├── scss
 │    └── stylesheet.scss
 ├── .gitignore
@@ -47,7 +47,7 @@ $ touch .env
 ```
 exports.apiKey = 818f2c227ee20762596e1369090b93d0;
 ```
-* _Return to the terminal, and run program:_
+* _Return to the terminal and run program:_
 ```
 $ gulp build
 $ gulp serve
@@ -56,7 +56,6 @@ $ gulp serve
 ```
 localhost:3000
 ```
-
 
 ## Specifications
 _App does this..._
