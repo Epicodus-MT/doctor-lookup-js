@@ -2,8 +2,9 @@
 
 # Doctor Lookup
 
-> Technologies Used - Javascript, HTML, Shell, BetterDoctor API.
-> IDE used - Atom.
+> **Technologies Used** - Javascript, HTML, Shell, BetterDoctor API.
+
+> **IDE used** - Atom.
 
 #### By _**Mara Timberlake**_
 
