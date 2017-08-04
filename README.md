@@ -44,9 +44,9 @@ $ npm install
 $ bower install
 $ touch .env
 ```
-* _Open the .env file and add the following:_
+* _Open the .env file and add the following with your unique API key:_
 ```
-exports.apiKey = 'BetterDoctorAPIKey';
+exports.apiKey = 'YourBetterDoctorAPIKey';
 ```
 * _Return to the terminal and run program:_
 ```
