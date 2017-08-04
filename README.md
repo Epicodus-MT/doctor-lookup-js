@@ -1,22 +1,22 @@
 <img src="epicodus.png" align="right" />
 
-# README PROJECT SKELETON [![MT](MT-logo.png?raw=true)](https://github.com/sindresorhus/awesome)
+# README PROJECT SKELETON
 
-> Technologies Used - Javascript, HTML, Shell. IDE used - Atom.
+> Technologies Used - Javascript, HTML, Shell, BetterDoctor API. IDE used - Atom.
 
 #### By _**Mara Timberlake**_
 
-README with images, screenshots, GIFs, text formatting, etc.
+JavaScript app that uses the BetterDoctor API to allow users to search for a doctor that provides the services nearby.
 
 ## Description
 
-_The Forest Service is considering a proposal from a timber company to clearcut a nearby forest of Douglas Fir. Before this proposal may be approved, they must complete an environmental impact study. This application was developed to allow Rangers to track wildlife sightings in the area._
+_A website where users may enter a medical issue (ie: “sore throat”, "rash", etc.) into a form, submit it, and receive a list of doctors nearby who can treat their medical issue._
 
 ## What's included
 Within the repository you'll find the following directories and files:
 
 ```
-TITLE/
+doctor-lookup/
 ├── js/
 |    └── object-interface.js
 |    └── object.js
@@ -31,33 +31,29 @@ TITLE/
 ```
 
 ## Setup/Installation Requirements
-To create the necessary databases:
+To run this program:
 * _LOCAL: Go to Terminal_
 * _Clone this repository:_
 ```
 $ cd ~/Desktop
-$ git clone https://github.com/Epicodus-MT/TITLE.git
-$ cd TITLE
+$ git clone https://github.com/Epicodus-MT/doctor-lookup-js.git
+$ cd doctor-lookup-js
+$ npm install
+$ bower install
+$ touch .env
 ```
-* _Run Postgres with terminal command:_
+* _Open the .env file and add the following to the file:_
 ```
-$ postgres
+exports.apiKey = ... ;
 ```
-* _Open a new tab in terminal by pressing [command ⌘] + [T]_
-* _In the new tab, create 'TITLE' database:_
+* _Return to the terminal, and run program:_
 ```
-$ psql
-* `CREATE DATABASE TITLE;`
-* `\c TITLE;`
-...
-```
-* _Return to original tab where repository was cloned and run gradle:_
-```
-$gradle run
+$ gulp build
+$ gulp serve
 ```
 * _Open browser window:_
 ```
-localhost:4567
+localhost:3000
 ```
 
 
