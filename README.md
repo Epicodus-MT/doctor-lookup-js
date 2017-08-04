@@ -27,7 +27,8 @@ doctor-lookup-js/
 ├── contact-info.md
 ├── gulpfile.js
 ├── index.html
-├── node-commands.sh
+├── package-lock.json
+├── package.json
 └── README.md
 ```
 
@@ -45,7 +46,7 @@ $ touch .env
 ```
 * _Open the .env file and add the following:_
 ```
-exports.apiKey = 818f2c227ee20762596e1369090b93d0;
+exports.apiKey = 'BetterDoctorAPIKey';
 ```
 * _Return to the terminal and run program:_
 ```
@@ -56,9 +57,6 @@ $ gulp serve
 ```
 localhost:3000
 ```
-
-## Specifications
-_App does this..._
 
 ## Known Bugs
 _No known bugs at this time._
